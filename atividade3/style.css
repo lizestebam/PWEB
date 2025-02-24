@@ -1,0 +1,43 @@
+body {
+  background-color: #24273a;
+  color: #8bd5ca;
+}
+
+body h2 {
+  color: #8aadf4;
+}
+
+body h4 {
+  color: #f5bde6;
+}
+
+body p {
+  color: #b8c0e0;
+}
+
+header {
+  background-color: #8bd5ca;
+  color: #24273a;
+  text-align: center;
+}
+
+header p {
+  color: #24273a;
+}
+
+header ul li a{
+  color: #24273a;
+}
+
+header ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+footer h3{
+    color: #8aadf4;
+}
+
+footer ul li a{
+    color: #b8c0e0;
+}
