@@ -5,20 +5,20 @@ if (randInt==input){
     alert("Houve um empate!");
 }
 else if (input==1&randInt==3){
-    alert("Você venceu!");
+    alert("Pedra quebra tesoura\nVocê venceu!");
 }
 else if (input==1&randInt==2){
-    alert("Você perdeu!");
+    alert("Papel cobre pedra\nVocê perdeu!");
 }
 else if (input==2&randInt==1){
-    alert("Você venceu!");
+    alert("Papel cobre pedra\nVocê venceu!");
 }
 else if (input==2&randInt==3){
-    alert("Você perdeu!");
+    alert("Tesoura corta papel\nVocê perdeu!");
 }
 else if (input==3&randInt==1){
-    alert("Você perdeu!")
+    alert("Pedra quebra tesoura\nVocê perdeu!")
 }
 else if (input==3&randInt==2){
-    alert("Você venceu!");
+    alert("Tesoura corta papel\nVocê venceu!");
 }
