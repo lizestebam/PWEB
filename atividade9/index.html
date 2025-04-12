@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>atividade 9</title>
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <button onclick="executarMaiorNumero()">Maior Número</button>
+    <button onclick="executarOrdemCrescente()">Ordem Crescente</button>
+    <button onclick="executarPalindromo()">Palíndromo</button>
+    <button onclick="executarVerificarTriangulo()">Verificar Triângulo</button>
+
+    <script>
+        function executarMaiorNumero() {
+            let num1 = parseInt(prompt("Digite o primeiro número:"));
+            let num2 = parseInt(prompt("Digite o segundo número:"));
+            let num3 = parseInt(prompt("Digite o terceiro número:"));
+            alert("O maior número é: " + maiorNumero(num1, num2, num3));
+        }
+        function executarOrdemCrescente() {
+            let num1 = parseInt(prompt("Digite o primeiro número:"));
+            let num2 = parseInt(prompt("Digite o segundo número:"));
+            let num3 = parseInt(prompt("Digite o terceiro número:"));
+            alert("Os números em ordem crescente são: " + ordemCrescente(num1, num2, num3).join(", "));
+        }
+        function executarPalindromo() {
+            let str = prompt("Digite uma palavra ou frase:");
+            alert(ePalindromo(str));
+        }
+
+        function executarVerificarTriangulo() {
+            let lado1 = parseInt(prompt("Digite o primeiro lado do triângulo:"));
+            let lado2 = parseInt(prompt("Digite o segundo lado do triângulo:"));
+            let lado3 = parseInt(prompt("Digite o terceiro lado do triângulo:"));
+            alert(verificarTriangulo(lado1, lado2, lado3));
+        }
+    </script>
+</body>
+</html>
