@@ -6,7 +6,7 @@ funcionario1.funcao = "Professor";
 
 console.log(`Nome=${funcionario1.nome} Matricula=${funcionario1.matricula} Funcao=${funcionario1.funcao}`);
 
-// construtor
+// 
 function Funcionario(matricula, nome, funcao) {
     this.matricula = matricula;
     this.nome = nome;
