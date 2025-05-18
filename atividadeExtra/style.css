@@ -1,0 +1,60 @@
+body {
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 20px;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+input {
+  padding: 8px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#listaAlunos {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#listaAlunos li {
+  margin-bottom: 6px;
+  padding: 4px;
+  background: #e8f0fe;
+  border-radius: 4px;
+}
+
+.media {
+  font-weight: bold;
+  margin-top: 10px;
+}
