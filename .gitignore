@@ -1,2 +1,5 @@
 exemplos/
 .vscode/
+package-lock.json
+package.json
+node/node_modules
