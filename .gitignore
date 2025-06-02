@@ -3,3 +3,4 @@ exemplos/
 package-lock.json
 package.json
 node/node_modules
+node_modules
